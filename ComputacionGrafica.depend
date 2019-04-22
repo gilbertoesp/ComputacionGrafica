@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1555886410 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
+	<iostream>
+	<graphics.h>
+	"Linea.h"
+
+1555892659 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
+	<graphics.h>
+	<iostream>
+	<math.h>
+
+1555887313 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\linea.cpp
+	"Linea.h"
+
+1555892380 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\linea.h
+	"Punto.h"
+
+1555887313 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\punto.cpp
+	"Punto.h"
+
