@@ -33,9 +33,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Circulo.h" />
 		<Unit filename="include/Linea.h" />
 		<Unit filename="include/Punto.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Circulo.cpp" />
 		<Unit filename="src/Linea.cpp" />
 		<Unit filename="src/Punto.cpp" />
 		<Extensions>

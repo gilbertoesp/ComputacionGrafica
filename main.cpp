@@ -17,7 +17,8 @@ int main(){
     initgraph(&gd, &gm, "");
 
     //Punto::test(); Dibuja 3 puntos
-    Linea::test();
+    //Linea::test();
+    Circulo::test();
     // End DRAWING
     getch();
     // Cierra el grafico generado y limpia la memoria.

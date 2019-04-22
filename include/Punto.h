@@ -1,5 +1,6 @@
 #ifndef PUNTO_H
 #define PUNTO_H
+
 // Librearias necesarias para el proyecto.
 #include <graphics.h>
 #include <iostream>
