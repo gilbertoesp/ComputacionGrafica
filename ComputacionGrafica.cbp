@@ -13,6 +13,7 @@
 				<Option compiler="graphics_gnu_gcc_compiler" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="graphics_gnu_gcc_compiler" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -31,7 +33,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Linea.h" />
+		<Unit filename="include/Punto.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Linea.cpp" />
+		<Unit filename="src/Punto.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
