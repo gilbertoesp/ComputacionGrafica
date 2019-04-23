@@ -2,7 +2,7 @@
 #include <graphics.h>
 
 //#include "Punto.h"
-#include "Linea.h"
+#include "Circulo.h"
 int main(){
     std::cout << "Computacion Grafica." << std::endl;
 

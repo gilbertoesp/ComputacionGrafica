@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1555886410 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
+1556038479 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
 	<iostream>
 	<graphics.h>
-	"Linea.h"
+	"Circulo.h"
 
-1555892659 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
+1555893238 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
 	<graphics.h>
 	<iostream>
 	<math.h>
 
-1555887313 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\linea.cpp
+1555892718 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\linea.cpp
 	"Linea.h"
 
 1555892380 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\linea.h
@@ -17,4 +17,10 @@
 
 1555887313 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\punto.cpp
 	"Punto.h"
+
+1556038609 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\circulo.h
+	"Linea.h"
+
+1556038577 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\circulo.cpp
+	"Circulo.h"
 
