@@ -27,10 +27,13 @@ class Circulo
         void setCentro(int _x, int _y) {
             m_centro.set(_x, _y);
         }
+
         // Dibuja 8 puntos. Funcion auxiliar para trazado de circulos
         void draw8Punto(int _x, int _y, unsigned int _color);
         // Dibujando circulos
-        void draw(unsigned int _color);
+        void draw(unsigned int _color); // Algoritmo de Bresenham
+        void drawDDA(unsigned int _color); // Algoritmo DDa
+        void drawGeneral(unsigned int _color); // Algoritmo General
 
         static void test();
 };
