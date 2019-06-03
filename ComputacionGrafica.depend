@@ -1,26 +1,38 @@
 # depslib dependency file v1.0
-1556038479 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
+1559153776 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
 	<iostream>
 	<graphics.h>
-	"Circulo.h"
+	"Clipping.h"
 
 1555893238 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
 	<graphics.h>
 	<iostream>
 	<math.h>
 
-1555892718 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\linea.cpp
+1559155805 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\linea.cpp
 	"Linea.h"
 
 1555892380 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\linea.h
 	"Punto.h"
 
-1555887313 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\punto.cpp
+1559153738 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\punto.cpp
 	"Punto.h"
 
 1556061439 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\circulo.h
 	"Linea.h"
 
-1556038577 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\circulo.cpp
+1556083886 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\circulo.cpp
 	"Circulo.h"
+
+1559155026 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\clipping.h
+
+1559155012 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\clipping.cpp
+	<iostream>
+	"Linea.h"
+
+1559156161 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\polilinea.cpp
+	"Polilinea.h"
+
+1559174177 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\polilinea.h
+	"Punto.h"
 

@@ -2,7 +2,8 @@
 #include <graphics.h>
 
 //#include "Punto.h"
-#include "Circulo.h"
+//#include "Circulo.h"
+#include "Clipping.h"
 int main(){
     std::cout << "Computacion Grafica." << std::endl;
 
@@ -18,7 +19,8 @@ int main(){
 
     //Punto::test(); Dibuja 3 puntos
     //Linea::test();
-    Circulo::test();
+    //Circulo::test();
+    test_clipping();
     // End DRAWING
     getch();
     // Cierra el grafico generado y limpia la memoria.

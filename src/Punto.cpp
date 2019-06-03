@@ -1,4 +1,5 @@
 #include "Punto.h"
+
 void Punto::print()// Imprime en consola el punto, estilo  (x,y)
 {
     std::cout << "(" << m_x << ", " << m_y << ")";
@@ -14,7 +15,7 @@ void Punto::drawPunto(unsigned int _color)
 void Punto::drawPunto(int _x, int _y, unsigned int _color) // Dibuja un punto con las coordenas dadas.
 {
     float h = (float)getwindowheight();
-    float w = (float)getwindowwidth();
+    float w = (float)getwindowwidth() + 100;
     putpixel(_x + w/2, (h/2) - _y, _color);
 }
 

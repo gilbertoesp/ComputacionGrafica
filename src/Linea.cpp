@@ -16,10 +16,10 @@ Linea::Linea(Punto _inicio, Punto _final)
 */
 void Linea::drawAxis(unsigned int _color/*= BLUE*/)
 {
-    float h = (float)getwindowheight();
-    float w = (float)getwindowwidth();
-    std::cout << "Window Height: " << h << std::endl;
-    std::cout << "Window Width: " << w << std::endl;
+    float h = getwindowheight();
+    float w = getwindowwidth();
+    //std::cout << "Window Height: " << h << std::endl;
+    //std::cout << "Window Width: " << w << std::endl;
     // Axis
     Linea l_vertical, l_horizontal; // linea_
     //Mitades del planoo
