@@ -11,6 +11,13 @@ class Punto
     public:
         Punto() : m_x(0) , m_y(0) {}
         Punto( int _x,  int _y) : m_x(_x), m_y(_y) {}
+        /*
+            Crea un arreglo de puntos dado un arreglo de posiciones en x y uno de posiciones y.
+            Los asigna uno a uno. (x[i],y[i]).
+            Estatica para poder crear el arreglo de punto sin necesitar algun objeto Punto ya creado
+        */
+//        static Punto list_puntos(int[] _xs, int[] _ys);
+
         virtual ~Punto() {}; // El destructor
 
          int x() { return m_x; }

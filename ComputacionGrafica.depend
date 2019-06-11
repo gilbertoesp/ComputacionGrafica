@@ -4,7 +4,7 @@
 	<graphics.h>
 	"Clipping.h"
 
-1555893238 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
+1559682551 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\punto.h
 	<graphics.h>
 	<iostream>
 	<math.h>
@@ -24,15 +24,24 @@
 1556083886 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\circulo.cpp
 	"Circulo.h"
 
-1559155026 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\clipping.h
-
-1559155012 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\clipping.cpp
-	<iostream>
+1559766722 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\clipping.h
+	"Punto.h"
 	"Linea.h"
+
+1560283890 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\clipping.cpp
+	<iostream>
+	"Clipping.h"
 
 1559156161 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\polilinea.cpp
 	"Polilinea.h"
 
 1559174177 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\polilinea.h
 	"Punto.h"
+
+1560284299 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\fractal.cpp
+	"Fractal.h"
+	<graphics.h>
+	<math.h>
+
+1560284104 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\fractal.h
 
