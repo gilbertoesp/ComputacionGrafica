@@ -1,5 +1,6 @@
 #include "Punto.h"
 
+
 void Punto::print()// Imprime en consola el punto, estilo  (x,y)
 {
     std::cout << "(" << m_x << ", " << m_y << ")";

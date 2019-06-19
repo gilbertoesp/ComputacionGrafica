@@ -17,7 +17,6 @@ class Punto
             Estatica para poder crear el arreglo de punto sin necesitar algun objeto Punto ya creado
         */
 //        static Punto list_puntos(int[] _xs, int[] _ys);
-
         virtual ~Punto() {}; // El destructor
 
          int x() { return m_x; }

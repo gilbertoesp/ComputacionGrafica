@@ -16,8 +16,8 @@ Linea::Linea(Punto _inicio, Punto _final)
 */
 void Linea::drawAxis(unsigned int _color/*= BLUE*/)
 {
-    float h = getwindowheight();
-    float w = getwindowwidth();
+    float h = getmaxy();
+    float w = getmaxx();
     //std::cout << "Window Height: " << h << std::endl;
     //std::cout << "Window Width: " << w << std::endl;
     // Axis

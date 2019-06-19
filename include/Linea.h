@@ -10,7 +10,6 @@ class Linea
     private:
         Punto m_inicio;
         Punto m_final;
-
     public:
         Linea() : m_inicio(0,0), m_final(0,0) {} // Punto en centro
         Linea(Punto _inicio, Punto _final);

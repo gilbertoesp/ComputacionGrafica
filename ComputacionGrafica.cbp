@@ -35,15 +35,19 @@
 		</Compiler>
 		<Unit filename="include/Circulo.h" />
 		<Unit filename="include/Clipping.h" />
+		<Unit filename="include/L_system.h" />
 		<Unit filename="include/Linea.h" />
 		<Unit filename="include/Polilinea.h" />
 		<Unit filename="include/Punto.h" />
+		<Unit filename="include/Tortuga.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Circulo.cpp" />
 		<Unit filename="src/Clipping.cpp" />
+		<Unit filename="src/L_system.cpp" />
 		<Unit filename="src/Linea.cpp" />
 		<Unit filename="src/Polilinea.cpp" />
 		<Unit filename="src/Punto.cpp" />
+		<Unit filename="src/Tortuga.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
