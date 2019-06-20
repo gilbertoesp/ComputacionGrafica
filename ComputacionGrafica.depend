@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1560973186 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
+1560994765 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
 	<iostream>
 	<graphics.h>
 	"Punto.h"
@@ -58,11 +58,11 @@
 	"L_system.h"
 	<iostream>
 
-1560968817 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\tortuga.h
+1560995883 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\tortuga.h
 	"Punto.h"
 	<cstring>
 
-1560972559 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\tortuga.cpp
+1560994626 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\tortuga.cpp
 	"Tortuga.h"
 	"Linea.h"
 	<cmath>

@@ -18,6 +18,8 @@ class Tortuga
         }
         int Getheading_angle() { return m_heading_angle; }
         void Setheading_angle(int val) { m_heading_angle = val; }
+        int Getangle_int() { return m_angle_inc; }
+        void Setangle_inc(int val) { m_angle_inc = val; }
         int Getstep_size() { return m_step_size; }
         void Setstep_size(int val) { m_step_size = val; }
 

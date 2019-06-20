@@ -31,7 +31,13 @@ void Tortuga::dibujar(std::string _cadena, unsigned int _color)
     for(unsigned int i = 0 ; i < _cadena.length() ; i++){
         simbolo = _cadena[i];
         //std::cout << "Simbolo: " << simbolo << std::endl;
-        if(simbolo == "F"){
+        if(simbolo == "F"){ // F_l for edge rewriting
+            this->avanza(_color);
+        }
+        if(simbolo == "R"){ // F_r for edge rewriting
+            this->avanza(_color);
+        }
+        if(simbolo == "L"){ // F_r for edge rewriting
             this->avanza(_color);
         }
         if(simbolo == "+"){
@@ -64,8 +70,8 @@ void Tortuga::avanza(unsigned int _color)
 void Tortuga::test()
 {
     Punto origen(0,0);
-    //std::string cadena = "F+F+F+F"; // Un cuadrado
-    std::string cadena = "FFF-FF-F-F+F+FF-F-FFF"; // Un cuadrado
+    std::string cadena = "F+F+F+F"; // Un cuadrado
+    //std::string cadena = "FFF-FF-F-F+F+FF-F-FFF"; // Un cuadrado
     Tortuga tortuga(origen);
 
     tortuga.dibujar(cadena, CYAN);
