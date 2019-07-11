@@ -14,10 +14,32 @@ Tortuga::Tortuga(Punto posicion_inicial)
     m_step_size = STEP_SIZE; // px
     m_angle_inc = ANGLE_INCREMENT; // grados
 }
-
+void Tortuga::set(Tortuga _other)
+{
+    this->Setposicion(_other.Getposicion());
+    this->Setheading_angle(_other.Getheading_angle());
+}
 Tortuga::~Tortuga()
 {
     //dtor
+}
+struct Estado{
+    /**
+        Simulacion de pila, para guardar los estados de las tortugas
+    */
+    Punto posicion;
+    int angle;
+    Estado* siguiente;
+
+//    pila() {posicion(0,0), angle = 0, siguiente = NULL; }
+};
+void push(Punto _punto, int _angle)
+{
+    return;
+}
+void pop()
+{
+    return;
 }
 /**
     La tortuga podra leer simbolos dados en la cadena y dibujar a partir de ellos.
@@ -40,6 +62,15 @@ void Tortuga::dibujar(std::string _cadena, unsigned int _color)
         if(simbolo == "L"){ // F_r for edge rewriting
             this->avanza(_color);
         }
+        /*
+        if(simbolo == "["){
+            pila.push(this);
+        }
+        if(simbolo == "]"){
+            this.set(pila.top());
+            pila.pop();
+        }
+        */
         if(simbolo == "+"){
             m_heading_angle = m_heading_angle + m_angle_inc;
         }
@@ -70,8 +101,9 @@ void Tortuga::avanza(unsigned int _color)
 void Tortuga::test()
 {
     Punto origen(0,0);
-    std::string cadena = "F+F+F+F"; // Un cuadrado
+    //std::string cadena = "F+F+F+F"; // Un cuadrado
     //std::string cadena = "FFF-FF-F-F+F+FF-F-FFF"; // Un cuadrado
+    std::string cadena = "F[F+F]F";
     Tortuga tortuga(origen);
 
     tortuga.dibujar(cadena, CYAN);

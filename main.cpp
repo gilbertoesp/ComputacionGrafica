@@ -68,7 +68,7 @@ void dragon_curva(unsigned int color)
     // L y R es avanzar, se hace, en la lectura de tortuga, la interpreta como F
     curva.agregar_regla("L", "L+R+");
     curva.agregar_regla("R", "-L-R");
-    grado = 8;
+    grado = 10;
 
     curva.aplicar_reglas(grado);
     std::cout << "Iteracion: " << grado << "\t Cadena: " << curva.Get_cadena() << std::endl;
@@ -92,6 +92,22 @@ void sierpinski_triangle(unsigned int color)
     triangulo.aplicar_reglas(grado);
     std::cout << "Iteracion: " << grado << "\t Cadena: " << triangulo.Get_cadena() << std::endl;
     tortuga.dibujar(triangulo.Get_cadena(), color);
+}
+void planta_a(unsigned int color)
+{
+    int grado;
+    Punto origen(-400,400);
+    L_system cuadra("F");
+    Tortuga tortuga(origen);
+    tortuga.Setstep_size(10); // Paso pequeno
+
+    cuadra.agregar_regla("F", "F[+F]F[-F]F");
+    grado = 1;
+
+    cuadra.aplicar_reglas(grado);
+    std::cout << "Iteracion: " << grado << "\t Cadena: " << cuadra.Get_cadena() << std::endl;
+
+    tortuga.dibujar(cuadra.Get_cadena(), color);
 }
 int main(){
     std::cout << "Computacion Grafica." << std::endl;

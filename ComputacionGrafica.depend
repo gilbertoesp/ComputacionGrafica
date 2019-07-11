@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1560994765 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
+1561044428 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\main.cpp
 	<iostream>
 	<graphics.h>
 	"Punto.h"
@@ -58,12 +58,73 @@
 	"L_system.h"
 	<iostream>
 
-1560995883 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\tortuga.h
+1561044341 c:\users\gilbe\desktop\computergraphics\computaciongrafica\include\tortuga.h
 	"Punto.h"
 	<cstring>
+	<stack>
 
-1560994626 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\tortuga.cpp
+1561044840 source:c:\users\gilbe\desktop\computergraphics\computaciongrafica\src\tortuga.cpp
 	"Tortuga.h"
 	"Linea.h"
 	<cmath>
+
+1556083886 source:c:\users\gilbe\desktop\computaciongrafica\src\circulo.cpp
+	"Circulo.h"
+
+1556061439 c:\users\gilbe\desktop\computaciongrafica\include\circulo.h
+	"Linea.h"
+
+1560916922 c:\users\gilbe\desktop\computaciongrafica\include\linea.h
+	"Punto.h"
+
+1560955386 c:\users\gilbe\desktop\computaciongrafica\include\punto.h
+	<graphics.h>
+	<iostream>
+	<math.h>
+
+1560286278 source:c:\users\gilbe\desktop\computaciongrafica\src\clipping.cpp
+	<iostream>
+	"Clipping.h"
+
+1559766722 c:\users\gilbe\desktop\computaciongrafica\include\clipping.h
+	"Punto.h"
+	"Linea.h"
+
+1560972058 source:c:\users\gilbe\desktop\computaciongrafica\src\l_system.cpp
+	"L_system.h"
+	<iostream>
+
+1560965797 c:\users\gilbe\desktop\computaciongrafica\include\l_system.h
+	<cstring>
+	<graphics.h>
+	<math.h>
+
+1560973155 source:c:\users\gilbe\desktop\computaciongrafica\src\linea.cpp
+	"Linea.h"
+
+1559156161 source:c:\users\gilbe\desktop\computaciongrafica\src\polilinea.cpp
+	"Polilinea.h"
+
+1559174177 c:\users\gilbe\desktop\computaciongrafica\include\polilinea.h
+	"Punto.h"
+
+1560955374 source:c:\users\gilbe\desktop\computaciongrafica\src\punto.cpp
+	"Punto.h"
+
+1562623027 source:c:\users\gilbe\desktop\computaciongrafica\src\tortuga.cpp
+	"Tortuga.h"
+	"Linea.h"
+	<cmath>
+
+1561044341 c:\users\gilbe\desktop\computaciongrafica\include\tortuga.h
+	"Punto.h"
+	<cstring>
+	<stack>
+
+1562623000 source:c:\users\gilbe\desktop\computaciongrafica\main.cpp
+	<iostream>
+	<graphics.h>
+	"Punto.h"
+	"Tortuga.h"
+	"L_system.h"
 

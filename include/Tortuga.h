@@ -4,13 +4,15 @@
 #include "Punto.h"
 
 #include <cstring>
+#include <stack>
 
 class Tortuga
 {
     public:
         Tortuga(Punto posicion_inicial);
         virtual ~Tortuga();
-
+        /// configurando actual tortuga a otra tortuga
+        void set(Tortuga _other);
         Punto Getposicion() { return m_posicion; }
         void Setposicion(Punto val) {
             m_posicion.setx(val.x());
@@ -28,6 +30,7 @@ class Tortuga
         void dibujar(std::string cadena, unsigned int _color);
         /// Avanza la tortuga dibujando una linea
         void avanza(unsigned int _color);
+
     protected:
 
     private:
